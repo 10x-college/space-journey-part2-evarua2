@@ -182,9 +182,9 @@ button:hover {
 #schedule {
     /* Background Image: The Holographic Screen */
     background: url('./assets/hologram_screen.jpeg') no-repeat center center/cover;
-    padding: 100px 20px;
+    padding: 70px 20px;
     position: relative;
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -196,8 +196,8 @@ button:hover {
     /* border: 2px solid var(--neon-cyan); */
     /* box-shadow: 0 0 50px rgba(0, 243, 255, 0.3); */
     max-width: 1200px;
-    width: 100%;
-    backdrop-filter: blur(4px);
+    width: 70%;
+    backdrop-filter: blur(0px);
     /* 3D Hologram Tilt */
     /* transform: perspective(1000px) rotateX(5deg); */
 }
